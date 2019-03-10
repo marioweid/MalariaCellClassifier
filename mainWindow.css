@@ -1,0 +1,36 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #282c34;
+    color: #007acc;
+}
+
+#drop {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+#description {
+    text-align: center;
+    width: 100%;
+}
+
+#drop img {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+#classification {
+    color: white;
+}

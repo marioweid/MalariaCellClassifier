@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Malaria Cell Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mainWindow.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="mainWindow.js"></script>
+
+    <script>
+        //JAVASCRIPT
+        
+    </script>
+
+</head>
+
+<body>
+    <div class="col-lg-12">
+        <h1 style="text-align: center; -webkit-app-region: drag;">Malaria Cell Classifier</h1>
+        <div id="drop">
+            Drop Files Here
+        </div>
+        <p id="description">Drag&Drop your image into the box above to classify it.</p>
+        <h2 style="text-align: center;" id="classification">Classification</h2>
+        <button class="btn btn-primary" type="button" style="width:100%" onclick="getPrediction()">Classify</button>
+    </div>
+</body>
+
+</html>
